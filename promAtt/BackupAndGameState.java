@@ -46,7 +46,7 @@ public class BackupAndGameState {
     }
 
     public static void main(String[] args) {
-        backupFiles("C:\\Users\\Виктория\\Desktop");
+        backupFiles("./source_directory");
 
         int[] gameState = {0, 1, 2, 1, 0, 0, 2, 1, 3};
         writeGameState(gameState, "gameState.dat");
